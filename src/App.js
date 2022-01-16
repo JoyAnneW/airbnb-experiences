@@ -8,13 +8,7 @@ export default function App() {
 		return (
 			<Card
 				key={experience.id}
-				title={experience.title}
-				price={experience.price}
-				img={experience.coverImg}
-				rating={experience.stats.rating}
-				reviewCount={experience.stats.reviewCount}
-				location={experience.location}
-				openSpots={experience.openSpots}
+				{...experience}
 			/>
 		);
 	});

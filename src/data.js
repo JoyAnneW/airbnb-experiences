@@ -41,4 +41,32 @@ export default [
 		location: "Norway",
 		openSpots: 3,
 	},
+	{
+		id: 4,
+		title: "Wine and Dine with Philip Martin",
+		description:
+			"Spend the evening enjoying good wine and gourmet food with NYT Best-selling Author, Philip Martin. ",
+		price: 250,
+		coverImg: "philip-martin.jpg",
+		stats: {
+			rating: 4,
+			reviewCount: 29,
+		},
+		location: "Canada",
+		openSpots: 1,
+	},
+	{
+		id: 5,
+		title: "Culinary Coma Tour",
+		description:
+			"Indulge in the rich tastes of the local cuisine with a Michelin Star Chef as your guide.",
+		price: 320,
+		coverImg: "chef.jpg",
+		stats: {
+			rating: 5,
+			reviewCount: 128,
+		},
+		location: "Madagascar",
+		openSpots: 0,
+	},
 ];
